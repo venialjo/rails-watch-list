@@ -1,0 +1,7 @@
+<%= simple_form_for [@list, @bookmark] do |b| %>
+  <%= b.input :comment %>
+  <%= b.association :movie %>
+  <%= b.submit %>
+<% end %>
+
+<%= link_to "Cancel", lists_path  %>

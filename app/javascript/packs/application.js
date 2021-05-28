@@ -18,3 +18,4 @@ require("channels")
 
 // app/javascript/packs/application.js
 import 'bootstrap';
+import 'ken-burns-carousel';

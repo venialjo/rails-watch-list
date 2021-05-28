@@ -1,6 +1,9 @@
 .navbar-lewagon {
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  background: #2d2d2d;
+  padding: 16px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +12,34 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-lewagon > ul {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 4px;
+  transition: 0.3s
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px gold;
+  color: white;
+}
+
+.glow {
+  text-shadow: 0 0 5px white;
+}
+
+.inline-list {
+    list-style: none;
+}
+
+.inline-list > li {
+    display: inline;
+    text-decoration: none;
 }
