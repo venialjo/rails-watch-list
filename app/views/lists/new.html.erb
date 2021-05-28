@@ -1,6 +1,9 @@
-<%= simple_form_for(@list) do |l| %>
-  <%= l.input :name %>
-  <%= l.submit %>
-<% end %>
-
-<%= link_to "Cancel", lists_path  %>
+<div class="container form-white">
+    <%= simple_form_for(@list) do |l| %>
+      <%= l.input :name %>
+      <%= l.input :photo, as: :file %>
+      <%= l.submit %>
+    <% end %>
+    <br>
+    <%= link_to "Cancel", lists_path  %>
+</div>

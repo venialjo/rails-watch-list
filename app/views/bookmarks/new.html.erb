@@ -1,7 +1,9 @@
-<%= simple_form_for [@list, @bookmark] do |b| %>
-  <%= b.input :comment %>
-  <%= b.association :movie %>
-  <%= b.submit %>
-<% end %>
-
-<%= link_to "Cancel", lists_path  %>
+<div class="container form-white">
+  <%= simple_form_for [@list, @bookmark] do |b| %>
+    <%= b.input :comment %>
+    <%= b.association :movie %>
+    <%= b.submit %>
+  <% end %>
+  <br>
+  <%= link_to "Cancel", list_path(@list)  %>
+</div>
