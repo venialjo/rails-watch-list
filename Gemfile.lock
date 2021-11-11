@@ -250,6 +250,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.7)
   rails-controller-testing
   rspec-rails
+  rspec-support (~> 3.10, >= 3.10.2)
   sass-rails (>= 6)
   simple_form
   spring
