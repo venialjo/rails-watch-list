@@ -6,6 +6,7 @@
   width: 35vh;
   height:  20vh;
   margin: 8px;
+  border-radius: 10px;
   border: none;
   display: inline-block;
 }
@@ -17,8 +18,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-radius: 2px;
   background-size: cover;
+  border-radius: 10px;
 }
 
 .card-glow {
